@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{
+    margin-bottom: 40px;
+}
+
+/* header .btn{
+    box-shadow:  4px 5px   black;
+} */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.btn{
+    box-shadow:  5px 6px   black;
+}
+.navbar{
+    box-shadow: 0 0 10px rgb(199, 197, 197);
+}
+
+.nav-list li a{
+font-size: 20px;
+color: black !important;
+
+
+}
+header li a:hover{
+    background-color: rgb(226, 220, 220);
+    border-radius: 5px;
+}
+.nav-list{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* HOME SECTION */
+
+
+#home{
+    min-height: 90vh;
+    background-color: #ecf2ff;
+   
+}
+ h1{
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: 700;
+}
+.section-1{
+    /* width: 100%;
+    background-color: blue;
+    margin-top: 200px; */
+    padding: 33% 0;
+}
+#home img{
+    height: auto;
+    max-width: 100%;
+
+}
+
+/* SERVICES SECTION */
+
+
+
+#services{
+    min-height: 80vh;
+}
+#services .card{
+    padding: 10px 30px;
+    border: 2px solid black;
+    box-shadow:  5px 6px   black;
+}
+
+#services .card .img1{
+    /* margin: 10px 115px 20px; */
+    margin: 0 auto 20px;
+}
+#services .card .text{
+    padding: 10px 20px;
+    text-align: center;
+}
+#services .card .text h5{
+    font-weight: 600;
+    
+}
+#services h1{
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+/* ABOUT SECTION */
+
+
+#about{
+    min-height: 65vh;
+    background-color: #ecf2ff;
+}
+#about .container{
+    
+    text-align: center;
+}
+#about p{
+    width: 75%;
+    margin: auto;
+}
+#about h1{
+    margin: 50px 0  20px;
+}
+
+
+/* PROJECTS SECTION */
+#projects{
+    min-height: 100vh;
+}
+#projects h1{
+    text-align: center;
+    margin: 40px;
+}
+
+#projects img{
+    width: 60%;
+}
+#projects .card {
+    padding: 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    box-shadow:  5px 6px   black;
+}
+#projects .img1{
+    margin: 60px 0 40px 30px;
+}
+#projects h4{
+    font-weight: 600;
+}
+#projects p{
+    margin: 15px 0;
+}
+
+/*Section  TESTIMONIAL */
+
+
+#testimonial-slide{
+    padding: 2%;
+    background-color: #ecf2ff;
+    min-height: 30vh;
+  
+}
+
+/*Section CONTACT */
+
+#contact{
+    min-height: 50vh;
+   
+}
+#contact h1{
+    text-align: center;
+    
+  
+}
+/* Section Footer */
+
+.footer{
+    background-color: #ecf2ff;
+    padding: 25px;
+    text-align: center;
+}
+.footer p{
+    letter-spacing: 1px;
+    font-weight: 550;
+font-size: 20px;
+}
+#phone,#email{
+    font-weight: 550;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
